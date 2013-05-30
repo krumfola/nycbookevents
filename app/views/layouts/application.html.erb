@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+
+<meta charset="utf-8">
+	    	<meta name="description" content="NYC Books is the birdge between experts and companies who seek the knowledge! NYC books faciliatates book events, author meets and greets, and the connection between information and those who seek it. ">
+
+	    	<meta name="keywords" content="nyc book events, nyc book tours, nyc company informational events">
+		
+			<title>NYC Book Events- About</title>
+			
+</head>
+<body>
+	<div id="container">
+	<header>
+		<div class="main-logo" "clearfix">
+			<a href="home">
+				<%= image_tag "stamplogo.jpg" %>
+			</a>	
+				<!-- <img src="images/stamplogo.jpg" alt="NYC Book Events"> -->
+		</div> <!-- main-header  -->
+		<div class="nyc-skyline">
+			<a href="home">
+				<%= image_tag "nyc_book_skyline.jpg" %>
+			</a>	
+				<!-- <img src="images/nyc_book_skyline.jpg" alt="NYC Book Events"> -->
+		</div> <!-- nyc_skyline  -->
+	
+
+	<nav class="top-navigation">
+		<a href="services">Our Services</a>
+		<a href="about">About Us</a>
+		<a href="blog">Blog</a>
+		<a href="contact">Contact</a>
+	</nav>
+	</header>
+	<div class="clear"></div>
+
+<%= yield %>
+
+
+<footer>
+		
+		<a href="https://www.facebook.com/nycbookevents">
+			<%= image_tag "facebook-black-icon.png" %></a>
+
+			<!-- <img src="images/facebook-black-icon.png" alt="Facebook NYC Books" id="social-media-link"> -->
+		<a href="http://instagram.com/nycbookevents">
+			<%= image_tag "instagram-512.gif" %></a>
+			<!-- <img src="images/instagram-512.gif" alt="Instagram NYC Books" id="instagram" "social-media-link"></a> -->
+		<a href="https://twitter.com/nycbookevents">
+			<%= image_tag "twitter-logo.png" %></a>
+
+
+			<!-- <img src="images/twitter-logo.png" alt="Twitter NYC Books" "social-media-link"></a> -->
+	</footer>
+</body>
+</html>
