@@ -1,10 +1,10 @@
-
+/*
 body{
 	font:'Courier New','Helvetica', Arial, sans-serif;
 	margin:0;
 	padding:0 0 0 0;
 	text-align:center;
-}
+}*/
 p{
 	padding:0 0 10px 0;
 }
@@ -347,9 +347,9 @@ span.or{
 	padding:5px 0;
 	border-bottom:1px solid #eee;
 }
-body{
+/*body{
 	-webkit-text-size-adjust:none;
-}
+}*/
 input{
 	-webkit-appearance:none;
 }
@@ -359,9 +359,9 @@ input[type=checkbox]{
 input[type=radio]{
 	-webkit-appearance:radio;
 }
-body,#bodyTable{
+/*body,#bodyTable{
 	background-color:#eeeeee;
-}
+}*/
 h1{
 	font-size:28px;
 	margin-bottom:15px;
@@ -439,12 +439,13 @@ html[dir=rtl] label .asterisk{
 	left:10px;
 }
 @media (max-width: 601px){
-body{
+
+/*body{
 	width:100%;
 	-webkit-font-smoothing:antialiased;
 	padding:10px 0 0 0 !important;
 	min-width:300px !important;
-}
+}*/
 
 }	@media (max-width: 601px){
 textarea,select,ul.unsub-options li textarea{
