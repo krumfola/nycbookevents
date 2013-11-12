@@ -5,6 +5,16 @@
 	padding: 20px 0 0 0;
 }
 
+.contactnow a {
+	text-decoration: none;
+	color: black;
+}
+
+.contactnow a:hover {
+	color: #0BB5FF;
+}
+
+
 .contactnow h2 {
 	padding: 0px;
 	margin: 0px;
@@ -405,8 +415,8 @@ ul.unsub-options li textarea{
 	color:#333333;
 	padding:20px;
 }
-a:link,a:active,a:visited,a{
-	color:#336699;
+/*a:link,a:active,a:visited,a{
+	color:#336699;*/
 }
 .button:link,.button:active,.button:visited,.button,.button span,.button-small:link,.button-small:active,.button-small:visited,.button-small{
 	background-color:#0BB5FF;
